@@ -81,7 +81,7 @@ const App = ()=>{
                 <input type="text"
                     placeholder="Enter first name"
                     id="input1"
-                    name="input1" // Change the name attribute to "input1"
+                    name="name1" // Change the name attribute to "input1"
                     data-testid="input1"
                     value={input1Value}
                     onChange={(e) => setinput1Value(e.target.value)}
@@ -89,7 +89,7 @@ const App = ()=>{
                 <input type="text"
                     placeholder="Enter second name"
                     id="input2"
-                    name="input1" // Change the name attribute to "input1"
+                    name="name2" // Change the name attribute to "input1"
                     data-testid="input2"
                     value={input2Value}
                     onChange={(e) => setinput2Value(e.target.value)}
